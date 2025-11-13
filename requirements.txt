@@ -1,3 +1,4 @@
+groq
 sympy == 1.13.3
 tenacity == 9.1.2
 terminado == 0.18.1
@@ -16,6 +17,6 @@ watchdog == 6.0.0
 wcwidth == 0.2.13
 webcolors == 24.11.1
 webencodings == 0.5.1
-
 websocket-client == 1.8.0
+
 
