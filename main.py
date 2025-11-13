@@ -28,7 +28,7 @@ def configurar_pagina():
 #ESTA FUNCION LLAMA A st.secrets PARA OBTENER LA CLAVE DE LA API DE GROQ Y CREA UN USUARIO
 def crear_usuario():    
     clave_secreta = st.secrets["CLAVE_API"]
-    return groq.Groq(api_key = clave_secreta)
+    return Groq(api_key=clave_secreta)
 
 #CONFIGURA EL MODELO DE LENGUAJE PARA QUE PROCESE EL PROMPT DEL USUARIO
 def configurar_modelo(cliente, modelo_elegido, prompt_usuario):
@@ -91,5 +91,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
